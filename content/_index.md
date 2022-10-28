@@ -1,5 +1,4 @@
 ---
-#title: "About"
 date: 2022-10-27T18:19:23+02:00
 draft: false
 meta: false
