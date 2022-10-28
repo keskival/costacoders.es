@@ -271,7 +271,7 @@ uglyURLs = false
     # on narrow screen?
     enableNavToggle = true
 
-    navHeight = "11em"
+    navHeight = "12em"
     # Note: menu bar height when it’s
     #       toggled
 
