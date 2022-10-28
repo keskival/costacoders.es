@@ -1,0 +1,68 @@
+{{ define "main" }}
+<main class="main single" id="main">
+
+  <div class="main-inner">
+    {{ $attrs := partial "utils/data-attributes.html" . }}
+
+    <article class="content post h-entry"
+    {{- if $attrs.smallCaps }} data-small-caps="true"{{ end }}
+    {{- with $attrs.align }} data-align="{{ . }}"{{ end }}
+    {{- with $attrs.type }} data-type="{{ . }}"{{ end }}
+    {{- with $attrs.layout }} data-layout="{{ . }}"{{ end }}
+    {{- if $attrs.indent }} data-indent="true"{{ end }}
+    {{- if $attrs.tocNum }} data-toc-num="true"{{ end }}>
+
+    <h1 class="post-title p-name">{{ (partial "utils/title.html" (dict "$" $ "title" $.Title)).htmlTitle }}</h1>
+    <div class="post-body e-content">
+      {{ partial "utils/content.html" . }}
+      <table>
+        <tbody>
+          {{ if $.Params.linkedin }}
+          <tr>
+            <td>LinkedIn</td>
+            <td><a href="{{.Params.linkedin}}" target="_blank" rel="noopener">{{.Params.linkedin}}</a></td>
+          </tr>
+          {{ end }}
+          {{ if $.Params.github }}
+          <tr>
+            <td>GitHub</td>
+            <td><a href="{{.Params.github}}" target="_blank" rel="noopener">{{.Params.github}}</a></td>
+          </tr>
+          {{ end }}
+          {{ if $.Params.xing }}
+          <tr>
+            <td>Xing</td>
+            <td><a href="{{.Params.xing}}" target="_blank" rel="noopener">{{.Params.xing}}</a></td>
+          </tr>
+          {{ end }}
+          {{ if $.Params.twitter }}
+          <tr>
+            <td>Twitter</td>
+            <td><a href="{{.Params.twitter}}" target="_blank" rel="noopener">{{.Params.twitter}}</a></td>
+          </tr>
+          {{ end }}
+          {{ if $.Params.mastodon }}
+          <tr>
+            <td>Mastodon address</td>
+            <td>{{.Params.mastodon}}</td>
+          </tr>
+          {{ end }}
+          {{ if $.Params.homepage }}
+          <tr>
+            <td>Homepage</td>
+            <td><a href="{{.Params.homepage}}" target="_blank" rel="noopener">{{.Params.homepage}}</a></td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+      <h2>Tags</h2>
+      <ul>
+        {{ range .Params.tags }}
+        <li><a href="/tags/{{.}}">{{.}}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+  </article>
+</div>
+</main>
+{{ end }}
