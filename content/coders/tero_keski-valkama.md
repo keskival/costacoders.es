@@ -1,6 +1,5 @@
 ---
 title: "Tero Keski-Valkama"
-date: 2022-10-26T21:58:11+02:00
 draft: false
 github: https://github.com/keskival
 linkedin: https://www.linkedin.com/in/terokeskivalkama
