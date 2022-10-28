@@ -24,4 +24,5 @@ tags:
 Hellos!
 I am the founder of this community, a generalist and a technologist.
 I have programmed computers since I was six years old, starting with a Commodore 64.
+I moved to Benalmádena in April 2022.
 Feel free to add me as a connection or a friend on any of the linked platforms!
