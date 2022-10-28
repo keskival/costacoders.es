@@ -13,6 +13,7 @@ You only need to click fork to clone this repository to your own profile, then m
 To edit, just duplicate a file in the `content/coders/` or `content/projects/` directory to another name and adapt accordingly.
 
 To test the site locally, you can clone it, [install Hugo](https://gohugo.io/getting-started/installing/) and then:
+
 ```
 git submodule update --remote
 hugo serve
