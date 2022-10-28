@@ -21,3 +21,7 @@ hugo serve
 When you have done your edits and pushed them to your own GitHub fork, then click "Contribute" and "Open pull request" from your fork on GitHub.
 
 ![Open PR](imgs/open_pr.png)
+
+## What if I don't live in Costa del Sol or don't speak English?
+
+No worries! This site is open source and you can simply fork it to set up your own local community in your own area!
