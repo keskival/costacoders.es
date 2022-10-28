@@ -350,7 +350,7 @@ uglyURLs = false
     ######################################
     # Site Info
 
-    siteLogo = "/icons/apple-touch-icon.png"
+    siteLogo = "/icons/android-chrome-512x512.png"
     # Note: used for JSON-LD, Open Graph
 
     siteDescription = "CostaCoders.es is a virtual space for English-speaking software engineers living in Costa del Sol."
