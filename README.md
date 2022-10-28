@@ -10,7 +10,7 @@ You only need to click fork to clone this repository to your own profile, then m
 
 ![Fork](imgs/fork.png)
 
-To edit, just duplicate a file in the `content/coders/` or `content/projects/` directory to another name and adapt accordingly.
+To edit, just duplicate a file in the `content/coders/` or `content/projects/` directory to another name and adapt accordingly. Look, these files are really simple, just Markdown with FrontMatter: [[1]](https://github.com/keskival/costacoders.es/blob/main/content/coders/tero_keski-valkama.md), [[2]](https://github.com/keskival/costacoders.es/blob/main/content/projects/ai_enabled_transparency_of_governance_and_power.md).
 
 To test the site locally, you can clone it, [install Hugo](https://gohugo.io/getting-started/installing/) and then:
 
