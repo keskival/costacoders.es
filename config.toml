@@ -2,7 +2,7 @@
 # Site Settings
 
 baseURL = "https://costacoders.es/"
-title = "CostaCoders.es"
+title = "CostaCoders.es is a local collaborative community for English-speaking software engineers in Costa del Sol"
 languageCode = "en"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
@@ -353,7 +353,7 @@ uglyURLs = false
     siteLogo = "/icons/android-chrome-512x512.png"
     # Note: used for JSON-LD, Open Graph
 
-    siteDescription = "CostaCoders.es is a virtual space for English-speaking software engineers living in Costa del Sol."
+    siteDescription = "CostaCoders.es is a virtual space and a collaborative local community for English-speaking software engineers living in Costa del Sol."
     # Note: used for HTML head meta, JSON-LD,
     #       Open Graph, Atom, RSS
 
