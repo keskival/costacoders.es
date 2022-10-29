@@ -4,6 +4,7 @@ draft: false
 meta: false
 displayCopyright: false
 badge: false
+description: "CostaCoders.es is a virtual space and a collaborative local community for English-speaking software engineers living in Costa del Sol."
 ---
 CostaCoders.es is an open virtual space for English-speaking software engineers living in the Costa del Sol area.
 

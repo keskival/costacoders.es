@@ -2,7 +2,7 @@
 # Site Settings
 
 baseURL = "https://costacoders.es/"
-title = "CostaCoders.es is a local collaborative community for English-speaking software engineers in Costa del Sol"
+title = "CostaCoders.es Community"
 languageCode = "en"
 hasCJKLanguage = false
 # Copyright information (Markdown supported)
