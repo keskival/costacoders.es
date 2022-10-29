@@ -6,6 +6,8 @@ This is an open and collaborative community of English-speaking software enginee
 
 Take part! Add yourself or your open source project to feature to the site by making a pull request here!
 
+You need a computer for this. I suppose it's possible with a mobile browser set to desktop mode, but it's a bit masochistic.
+
 You only need to click fork to clone this repository to your own profile, then make the edits you want (you know how to use Git or else you wouldn't be here).
 
 ![Fork](imgs/fork.png)
