@@ -228,6 +228,12 @@ uglyURLs = false
         pre = "internal"
         post = "th"
     [[menu.main]]
+        pageref = "/links/"
+        name = "Links"
+        weight = 5
+        pre = "internal"
+        post = "th"
+    [[menu.main]]
         pageref = "/how-to-become-a-costacoder/"
         name = "Becoming a CostaCoder"
         weight = 6

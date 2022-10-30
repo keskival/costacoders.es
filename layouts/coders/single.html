@@ -41,6 +41,12 @@
             <td><a href="{{.Params.twitter}}" target="_blank" rel="noopener">{{.Params.twitter}}</a></td>
           </tr>
           {{ end }}
+          {{ if $.Params.scholar }}
+          <tr>
+            <td>Google Scholar</td>
+            <td><a href="{{.Params.scholar}}" target="_blank" rel="noopener">{{.Params.scholar}}</a></td>
+          </tr>
+          {{ end }}
           {{ if $.Params.mastodon }}
           <tr>
             <td>Mastodon address</td>
