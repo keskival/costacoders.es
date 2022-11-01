@@ -16,3 +16,4 @@ Join our other channels:
 - [Facebook group](https://www.facebook.com/groups/5529815403782156)
 
 If you want to add your profile or information about your open source project to the directory, follow the instructions: <a href="/how-to-become-a-costacoder">How to Become a CostaCoder</a>.
+It's free, as this is a community, not a company. Just make a PR.
