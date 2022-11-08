@@ -50,7 +50,7 @@
           {{ if $.Params.mastodon }}
           <tr>
             <td>Mastodon address</td>
-            <td>{{.Params.mastodon}}</td>
+            <td><a rel="me" href="{{.Params.mastodon}}" target="_blank">{{.Params.mastodon}}</a></td>
           </tr>
           {{ end }}
           {{ if $.Params.homepage }}
