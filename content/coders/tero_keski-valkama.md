@@ -4,7 +4,7 @@ draft: false
 github: https://github.com/keskival
 linkedin: https://www.linkedin.com/in/terokeskivalkama
 xing: https://www.xing.com/profile/Tero_KeskiValkama/cv
-mastodon: https://geeknews.chat/@terokeskivalkama
+mastodon: https://rukii.net/@tero
 scholar: https://scholar.google.com/citations?user=l7qMBpkAAAAJ
 twitter: https://twitter.com/keskival
 homepage: https://www.neter.fi/tero/
