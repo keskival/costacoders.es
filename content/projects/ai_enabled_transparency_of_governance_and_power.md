@@ -1,5 +1,6 @@
 ---
 title: "AI Enabled Transparency of Governance and Power"
+draft: false
 project_url: https://github.com/keskival/ai_enabled_transparency_of_governance_and_power/wiki
 ---
 
