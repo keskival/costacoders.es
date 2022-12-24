@@ -7,9 +7,7 @@ author: Tero Keski-Valkama
 
 ## Mastodon on Kubernetes
 
-Merry Yule!
-
-I finally managed to make my home Kubernetes cluster highly available as I now have three nodes running, one traditional desktop PC and two Intel NUCs.
+Merry Yule! I finally managed to make my home Kubernetes cluster highly available as I now have three nodes running, one traditional desktop PC and two Intel NUCs.
 
 I learned that making the cluster highly available is extremely important if you have more than one node or non-trivial persistence. And luckily I already knew that backups are important as well.
 
