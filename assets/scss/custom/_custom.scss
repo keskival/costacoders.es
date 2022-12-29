@@ -1,0 +1,10 @@
+.post-body {
+    a {
+        text-decoration: underline;
+        color: var(--color-contrast-higher);
+        text-decoration-color: var(--color-primary);
+        &:hover {
+            text-decoration-color: alpha(var(--color-primary), 0.5);
+        }
+    }
+}
