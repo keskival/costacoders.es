@@ -29,7 +29,14 @@ First, with two nodes it became apparent that the default pod affinities weren't
 
 Setting up a high availability [MetalLB](https://microk8s.io/docs/addon-metallb) load balancer was pretty straight-forward actually.
 
-Setting up the high availability storage classes was an adventure without a map because all the documentation is either non-existent or out of date and misleading. The MicroK8S add-on for OpenEBS didn't even work, because it had a [bug](https://github.com/canonical/microk8s/issues/3639) which has later been fixed in OpenEBS upstream. Also, I first installed plain OpenEBS, but it quickly became clear what I actually needed was [OpenEBS Jiva](https://github.com/openebs/jiva) for replication. At first I tried it as such but multiple lock-ups made it clear I needed `ReadWriteMany` for some sanity and it didn't support that. First I tried setting up [dynamic-nfs-provisioner](https://github.com/openebs/dynamic-nfs-provisioner) to back the Jiva volumes, but that didn't work, but the other way around, backing the `ReadWriteMany` NFS volumes with Jiva replication, it seems to work so far.
+Setting up the high availability storage classes was an adventure without a map because all the documentation is either non-existent or out of date and misleading. The MicroK8S add-on for OpenEBS didn't even work, because it had a [bug](https://github.com/canonical/microk8s/issues/3639) which has later been fixed in OpenEBS upstream. Also, I first installed plain OpenEBS, but it quickly became clear what I actually needed was [OpenEBS Jiva](https://github.com/openebs/jiva) for replication. At first I tried it as such but multiple lock-ups made it clear I needed `ReadWriteMany` for some sanity and it didn't support that. First I tried setting up [dynamic-nfs-provisioner](https://github.com/openebs/dynamic-nfs-provisioner) to back the Jiva volumes, but that didn't work, but the other way around, backing the `ReadWriteMany` NFS volumes with Jiva replication, it seems to work.
+
+However, and this is important! I discovered that installing OpenEBS Jiva from the related Helm charts didn't work. It seemed to work, but behind the scenes it [stored all the data on the dynamic NFS provisioner volume pod ephemeral store](https://github.com/openebs/jiva/issues/367). I found out that instead installing the latest MicroK8S community OpenEBS Jiva support works. I never found out what the difference actually is. The latest MicroK8S community plug-in is installed like so:
+
+```
+microk8s addons repo add community https://github.com/canonical/microk8s-community-addons --reference main
+microk8s enable community/openebs
+```
 
 ## Restoring Backups
 
