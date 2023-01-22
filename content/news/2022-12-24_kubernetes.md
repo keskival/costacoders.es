@@ -38,6 +38,36 @@ microk8s addons repo add community https://github.com/canonical/microk8s-communi
 microk8s enable community/openebs
 ```
 
+It was extremely important (and a huge hassle) to configure the `startupProbe`s for the Postgres, ElasticSearch and Redis statefulsets. That is because the default timeouts are way too short, and in the best case they leave the pods into eternal restart loop, and in the worst case, they corrupt the Postgres database.
+
+Like so for Redis, similarly for the other services:
+```
+redis:
+    image:
+        pullPolicy: IfNotPresent
+    global:
+        persistence:
+            storageClass: openebs-rwx
+    master:
+        startupProbe:
+            enabled: true
+            initialDelaySeconds: 40
+            periodSeconds: 5
+            timeoutSeconds: 5
+            failureThreshold: 40
+        persistence:
+            storageClass: openebs-rwx
+    replica:
+        startupProbe:
+            enabled: true
+            initialDelaySeconds: 40
+            periodSeconds: 5
+            timeoutSeconds: 5
+            failureThreshold: 40
+        persistence:
+            storageClass: openebs-rwx
+```
+
 ## Restoring Backups
 
 Had to restore back-ups multiple times during this journey, luckily I had made them very recently and restoring them worked as expected. I am only backing up specific resources, not the whole set as [instructed by Mastodon docs](https://docs.joinmastodon.org/admin/backups/), so I need to rebuild indices and refetch external user profiles after restoring backups.
