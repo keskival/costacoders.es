@@ -9,6 +9,8 @@ author: Tero Keski-Valkama
 
 Merry Yule! I finally managed to make my home Kubernetes cluster highly available as I now have three nodes running, one traditional desktop PC and two Intel NUCs.
 
+The Mastodon server is here: [rukii.net](https://rukii.net).
+
 I learned that making the cluster highly available is extremely important if you have more than one node or non-trivial persistence. And luckily I already knew that backups are important as well.
 
 If you have one node, most things just tend to work. With two nodes you pretty much need to use node affinities to put work loads with persistence to specific nodes because hostpath volumes are node specific, and using anything more complicated for two node situation generally makes no sense.
