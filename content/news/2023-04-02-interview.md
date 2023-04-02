@@ -1,5 +1,5 @@
 ---
-title: "I was interviewd by Mika Isomaa"
+title: "I was interviewed by Mika Isomaa"
 date: 2023-04-02
 draft: false
 ---
