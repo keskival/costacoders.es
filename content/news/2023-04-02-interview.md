@@ -4,7 +4,7 @@ date: 2023-04-02
 draft: false
 ---
 
-[The original interview in Finnish](https://mikaisomaa.fi/loppuuko-maailma-tana-vuonna/)
+[The original interview by Mika Isomaa in Finnish](https://mikaisomaa.fi/loppuuko-maailma-tana-vuonna/)
 
 Translated in English here:
 
@@ -14,7 +14,7 @@ Despite the publication date of the article, I am seriously asking this. The dev
 
 There has been talk in the press that we might already have the so-called AGI (Artificial General Intelligence) in our hands within this year, and some have even demanded that the development and research of large language models be halted until the threats and effects on humanity have been carefully assessed.
 
-I interviewed Tero Keski-Valkamaa, a professional in artificial intelligence and self-learning systems, who I asked if the end of the world and the SkyNet of the Terminator movies will destroy humanity only next year or already this year? Interview below.
+I interviewed Tero Keski-Valkama, a professional in artificial intelligence and self-learning systems, who I asked if the end of the world and the SkyNet of the Terminator movies will destroy humanity only next year or already this year? Interview below.
 
 ### How is AGI defined?
 
@@ -26,7 +26,7 @@ When this possibility is achieved, the imperative of competitiveness quickly dis
 
 Pseudo-AGI has already been implemented with large language models. They are a short step away from true AGI, and the next steps are clear.
 
-Rumor has it that OpenAI aims to achieve true AGI in the form of GPT-5 and is scheduled for completion in December 2023.
+Rumor has it that OpenAI aims to achieve true AGI in the form of GPT-5 which is scheduled for completion in December 2023.
 
 However, there are many different ways to achieve AGI, all of which proceed in parallel. By using these alternative methods together, one can go even further.
 
