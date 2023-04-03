@@ -1,5 +1,5 @@
 ---
-title: "I was interviewed by Mika Isomaa"
+title: "Tero Keski-Valkama was interviewed by Mika Isomaa"
 date: 2023-04-02
 draft: false
 ---
