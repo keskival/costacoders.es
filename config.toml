@@ -1008,7 +1008,7 @@ uglyURLs = false
     fontFamilyBody = "'IBM Plex Serif', serif"
 
     # Embed fonts link
-    fontsLink = "https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@700&display=swap"
+    fontsLink = ""
     # Note: In order for the reader to
     #       experience the fonts you set,
     #       it is best to use web fonts.
@@ -1423,7 +1423,7 @@ uglyURLs = false
     # Customize host for third-party libraries
 
     [params.lib]
-        host = "https://cdn.jsdelivr.net"
+        host = "/"
         # Note: set it to root("/") and set
         #       the path below if you want to host
         #       the lib directly from “local”.
@@ -1431,23 +1431,23 @@ uglyURLs = false
         #       and put this file to your
         #       /static/js/lib.min.js
     [params.lib.path]
-        clipboard = "/npm/clipboard-polyfill@2.8.6/dist/clipboard-polyfill.min.js"
-        instantsearch = "/npm/instantsearch.js@2/dist/instantsearch.min.js"
-        gitalk = "/npm/gitalk@1/dist/gitalk.min.js"
-        gitalk_css = "/npm/gitalk@1/dist/gitalk.css"
-        instantpage = "/npm/instant.page@5.1.0/instantpage.min.js"
-        katex = "/npm/katex@0.13.0/dist/katex.min.js"
-        katex_css = "/npm/katex@0.13.0/dist/katex.min.css"
-        katex_mhchem = "/npm/katex@0.13.0/dist/contrib/mhchem.min.js"
-        katex_auto_render = "/npm/katex@0.13.0/dist/contrib/auto-render.min.js"
-        lunr = "/npm/lunr@2.3.9/lunr.min.js"
-        lunr_tinyseg = "/npm/lunr-languages@1.4.0/tinyseg.js"
-        lunr_stemmer = "/npm/lunr-languages@1.4.0/min/lunr.stemmer.support.min.js"
-        lunr_lang = "/npm/lunr-languages@1.4.0/min/lunr.de.min.js"
-        mathjax = "/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"
-        medium_zoom = "/npm/medium-zoom@latest/dist/medium-zoom.min.js"
-        mermaid = "/npm/mermaid@8.8.3/dist/mermaid.min.js"
-        qrcode = "/npm/qrcode-generator@1.4.4/qrcode.min.js"
-        valine = "/npm/valine@1.4.14/dist/Valine.min.js"
-        busuanzi = "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"
-        utterances = "https://utteranc.es/client.js"
+        clipboard = "js/clipboard-polyfill.min.js"
+        instantsearch = "js/instantsearch.min.js"
+        gitalk = "js/gitalk.min.js"
+        gitalk_css = "js/gitalk.css"
+        instantpage = "js/instantpage.min.js"
+        katex = "js/katex.min.js"
+        katex_css = "js/katex.min.css"
+        katex_mhchem = "js/mhchem.min.js"
+        katex_auto_render = "js/auto-render.min.js"
+        lunr = "js/lunr.min.js"
+        lunr_tinyseg = "js/tinyseg.js"
+        lunr_stemmer = "js/lunr.stemmer.support.min.js"
+        lunr_lang = "js/lunr.de.min.js"
+        mathjax = "js/tex-mml-chtml.js"
+        medium_zoom = "js/medium-zoom.min.js"
+        mermaid = "js/mermaid.min.js"
+        qrcode = "js/qrcode.min.js"
+        valine = "js/Valine.min.js"
+        busuanzi = "js/busuanzi.pure.mini.js"
+        utterances = "js/client.js"
