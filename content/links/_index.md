@@ -8,6 +8,10 @@ It is important to take back control of the web from the monopolistic search eng
 
 None of these links are associated with CostaCoders.es unless specifically mentioned. These are not paid advertisements. If you want to add links, submit a PR, as described here: [CostaCoders.es GitHub project](https://github.com/keskival/costacoders.es).
 
+## Sister Sites
+
+- [GranadaCoders.es](https://granadacoders.es)
+
 ## Consultancy Companies
 
 - [Nieve Consulting](https://www.nieveconsulting.com)
