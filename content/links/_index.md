@@ -1,6 +1,6 @@
 ---
 title: "Links"
-date: 2023-04-16
+date: 2025-01-19
 draft: false
 ---
 
@@ -35,3 +35,4 @@ None of these links are associated with CostaCoders.es unless specifically menti
 ## Random Stuff
 
 - [Animal Coffee](https://animalcoffee.es): Very good coffee beans, home delivered
+- [Spain in Fediverse project](https://nokorpo.github.io/spain-into-the-fediverse/)
